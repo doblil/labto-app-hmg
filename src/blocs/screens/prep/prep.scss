@@ -1,0 +1,80 @@
+@import '../../../sass/base/variables.scss';
+@import '../../../sass/base/title.scss';
+
+
+.filter{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid $main-color;
+    padding: 30px;
+
+    &__inputs{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__input{
+        width: 140px;
+        display: flex;
+        align-items: flex-end;
+        height: 18px;
+    }
+    &__label{
+        font-size: 8px;
+        display: inline;
+    }
+    &__btn{
+        background-color: $main-color;
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__condition{
+        display: flex;
+    }
+
+}
+.prep{
+    &__table{
+        width: 100%;
+        font-size: 9px;
+        border-collapse: collapse;
+
+        thead{
+            padding: 8px;
+            th{
+                padding: 8px;
+                border-bottom:1px solid $main-color;
+                text-align: left;
+                padding-bottom: 8px;
+            }
+        }
+        tbody{
+            td{
+                padding: 6px;
+            }
+            tr:nth-of-type(even) {
+                width: 6799px;
+                background-color: #f3f3f3;
+                
+            }
+        }
+         
+    }
+    &__name{
+        font-size: 11px;
+        color: $utility-color;
+        font-weight: 700;
+    }
+    &__producer{
+        font-size: 8px;
+    }
+    &__table-row{
+        &_active{
+            background-color: $main-color;
+            color: white;
+        }
+    }
+}

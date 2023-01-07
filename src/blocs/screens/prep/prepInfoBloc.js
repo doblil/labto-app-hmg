@@ -44,23 +44,23 @@ export const PrepInfoBloc = () => {
                 <div className="filter__condition">
                     <div className="filter__row">
                         <label className="filter__parameter">Остаток </label>
-                        <input className="custom-checkbox" type="checkbox" id="cube" name="cube"/>
-                        <label className="custom-checkbox__text" for="cube">0%</label> <br />
-                        <input className="custom-checkbox" type="checkbox" id="cube" name="cube"/>
-                        <label className="custom-checkbox__text" for="cube">В наличии</label>
+                        <input className="custom-checkbox" type="checkbox" id="chb-0" name="chb-0"/>
+                        <label className="custom-checkbox__text" for="chb-0">0%</label> <br />
+                        <input className="custom-checkbox" type="checkbox" id="chb-presence" name="chb-presence"/>
+                        <label className="custom-checkbox__text" for="chb-presence">В наличии</label>
                     </div>
 
                     <div className="filter__row">
                         <label className="filter__parameter">Срок годности</label>
-                        <input className="custom-checkbox" type="checkbox" id="cube" name="cube"/>
-                        <label className="custom-checkbox__text" for="cube">Истек</label> <br />
-                        <input className="custom-checkbox" type="checkbox" id="cube" name="cube"/>
-                        <label className="custom-checkbox__text" for="cube">Годен</label>
+                        <input className="custom-checkbox" type="checkbox"id="chb-expired" name="chb-expired"/>
+                        <label className="custom-checkbox__text" for="chb-expired">Истек</label> <br />
+                        <input className="custom-checkbox" type="checkbox" id="chb-fit" name="chb-fit"/>
+                        <label className="custom-checkbox__text" for="chb-fit">Годен</label>
                     </div>
 
                     <div className="filter__row">
-                        <input className="custom-checkbox" type="checkbox" id="cube" name="cube"/>
-                        <label className="custom-checkbox__text" for="cube">Избранное (13)</label> <br />
+                        <input className="custom-checkbox" type="checkbox" id="chb-favorite" name="chb-favorite"/>
+                        <label className="custom-checkbox__text" for="chb-favorite">Избранное (13)</label> <br />
                     </div>
                 </div>
             </div>

@@ -99,8 +99,10 @@
     }
     &__name{
         font-size: 11px;
+        line-height: 19px;
         color: $utility-color;
         font-weight: 700;
+        text-decoration: underline;
     }
     &__producer{
         font-size: 8px;
